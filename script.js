@@ -35,17 +35,3 @@ do {
 } while (yes || a || b);
 
 console.log(personalMovieDb);
-//mod
-//switch (numberOfFilms) {
-//	case numberOfFilms < 10:
-//		alert('Просмотрено довольно мало фильмов');
-//		break;
-//	case numberOfFilms > 30:
-//		alert('Вы киноман!');
-//		break;
-//	case numberOfFilms >= 10 || numberOfFilms <= 30:
-//		alert('Вы классный зритель!');
-//		break;
-//	default:
-//		alert('Произошла ошибка!');
-//}
