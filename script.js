@@ -1,22 +1,22 @@
-//let numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
+let numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDb = {
-	//count: numberOfFilms,
+	count: numberOfFilms,
 	movies: {},
 	actors: {},
 	genres: [],
 	privat: false,
 };
 
-//if (numberOfFilms < 10) {
-//	alert('Вы посмотрели не так много фильмов');
-//} else if (numberOfFilms > 30) {
-//	alert('Вы киноман!');
-//} else if (numberOfFilms <= 30 || numberOfFilms >= 10) {
-//	alert('Вы классный зритель!');
-//} else {
-//	alert('Произошла ошибка');
-//}
+if (numberOfFilms < 10) {
+	alert('Вы посмотрели не так много фильмов');
+} else if (numberOfFilms > 30) {
+	alert('Вы киноман!');
+} else if (numberOfFilms <= 30 || numberOfFilms >= 10) {
+	alert('Вы классный зритель!');
+} else {
+	alert('Произошла ошибка');
+}
 
 let a, b, yes;
 do {
